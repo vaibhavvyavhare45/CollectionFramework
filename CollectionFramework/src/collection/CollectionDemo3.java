@@ -9,7 +9,7 @@ public class CollectionDemo3 {
 		ar.add(10);
 		ar.add("python");
 		ar.add("kotlin");
-		ar.add("Swift");
+		ar.add("jift");
 		ar.add("Ruby");
 		ListIterator litr=ar.listIterator();
 		System.out.println(ar);
@@ -17,13 +17,21 @@ public class CollectionDemo3 {
 			
 			
 			//if((litr.next()=="kotlin")||(litr.next()==Integer.valueOf(10))) {
-				if(litr.next()==Integer.valueOf(10)) {
-				litr.remove();
+//				if(litr.next()==Integer.valueOf(100)) {
+			if(litr.next()=="kotlin") {
+			//	litr.remove();
+				litr.add(50);
 				
 				}
+			
+				
 				
 				
 			}
+		
+		System.out.println(ar);
+		Object arrs=ar.set(2,"Salim");
+		System.out.println(arrs);
 		System.out.println(ar);
 	
 	}

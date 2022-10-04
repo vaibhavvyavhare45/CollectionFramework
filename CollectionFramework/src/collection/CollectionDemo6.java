@@ -17,8 +17,8 @@ public class CollectionDemo6 {
 		while(litr.hasNext()) {
 		
 			if(litr.next()=="vaibhav") {
-				//al1.add("vaibhav");
-//				al1.remove(1);
+				//al1.add("Ram");
+				//al1.remove(1);
 				///this both condition is condition throws java.util.ConcurrentModificationException
 			//litr.add("vaibhav");
 				litr.remove();
