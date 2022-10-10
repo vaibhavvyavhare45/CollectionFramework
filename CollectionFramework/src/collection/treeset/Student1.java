@@ -1,16 +1,16 @@
-package hashsets;
+package collection.treeset;
 
 import java.util.Objects;
 
-public class Student {
+public class Student1  {
 	int rollno;
 	String name;
 	
-	public Student() {
-		// TODO Auto-generated constructor stub
+	public Student1() {
+		
 	}
 
-	public Student(int rollno, String name) {
+	public Student1(int rollno, String name) {
 		super();
 		this.rollno = rollno;
 		this.name = name;
@@ -18,7 +18,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [rollno=" + rollno + ", name=" + name + "]";
+		return "Student1 [rollno=" + rollno + ", name=" + name + "]";
 	}
 
 	@Override
@@ -27,19 +27,19 @@ public class Student {
 	}
 
 	@Override
-	public boolean equals(Object obj) { 
+	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
 		if (obj == null)
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Student other = (Student) obj;
+		Student1 other = (Student1) obj;
 		return Objects.equals(name, other.name) && rollno == other.rollno;
 	}
 	
 	
 	
- 
+	
 
 }

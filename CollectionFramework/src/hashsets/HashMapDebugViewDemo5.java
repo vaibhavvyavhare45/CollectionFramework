@@ -7,6 +7,9 @@ public class HashMapDebugViewDemo5 {
  
 public static void main(String[] args) {
 	Student s1=new Student(10,"AAA");
+	
+	
+	  
 	Student s2=new Student(20,"BBB");
 	//Student s3=s1;
 	Student s3=new Student(10,"AAA");
@@ -18,5 +21,8 @@ public static void main(String[] args) {
 	hs.add(s3);
 	hs.add(s4);
 	System.out.println(hs);
+	
 }
+
+
 }
