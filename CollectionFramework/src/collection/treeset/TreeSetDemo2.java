@@ -8,7 +8,7 @@ public class TreeSetDemo2 {
 		String s1="AAAA";
 		StringBuffer sb=new StringBuffer("BBBB");
 		StringBuilder sb1=new StringBuilder("DDDD");
-		
+		//ClassCastException becouse of TreeSet allowed homogenous object and sb and sbl and String are sibling 
 		TreeSet ts=new TreeSet<>();
 		ts.add(s1);
 		ts.add(sb);
